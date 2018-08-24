@@ -1,0 +1,26 @@
+.mainMenu {
+    -fx-background-image: url("/sample/resources/pictures/backgroundMenu.png");
+}
+
+.text-menu{
+    -fx-text-fill: rgb(230,230,20);
+    -fx-effect: innershadow(one-pass-box, black,  20, -3, 2, 2);
+    -fx-font: bold 22pt "Rockwell Extra Bold";
+}
+
+
+.btn-menu{
+    -fx-background-color: rgb(255,128,0);
+    -fx-effect: innershadow(one-pass-box, black, 200, -3, 20, 20);
+    -fx-text-fill: rgb(128,128,128);
+    -fx-font: bold italic 16pt "Castellar";
+}
+
+.btn-menu:focused, .btn-menu:hover{
+    -fx-background-color: rgb(10,100,0);
+}
+
+.btn-menu:pressed{
+    -fx-background-color: rgb(142,199,133);
+    -fx-border-style: solid, segments(1 , 1);
+}

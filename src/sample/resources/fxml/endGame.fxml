@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.EndGameController" styleClass="holst-endMenu">
+   <children>
+      <ImageView fx:id="imageBackground" fitHeight="350.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Button fx:id="btnNewGame" layoutX="135.0" layoutY="116.0" minHeight="0.0" mnemonicParsing="false" onAction="#actionNewGame" prefHeight="30.0" prefWidth="150.0" text="Новая игра" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="125.0" styleClass="btn-endMenu" />
+      <Button fx:id="btnMainMenu" layoutX="125.0" layoutY="169.0" minHeight="0.0" mnemonicParsing="false" onAction="#actionMainMenu" prefHeight="30.0" prefWidth="150.0" text="Главное меню" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="175.0" styleClass="btn-endMenu" />
+      <Button fx:id="btnExit" layoutX="125.0" layoutY="211.0" minHeight="0.0" mnemonicParsing="false" onAction="#actionExit" prefHeight="30.0" prefWidth="150.0" text="Выход" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="225.0" styleClass="btn-endMenu" />
+      <Label fx:id="textLabel" layoutX="147.0" layoutY="73.0" prefHeight="30.0" prefWidth="200.0" text="Поздравляем Вы победили!" textFill="#3d32cd" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="75.0" styleClass="text-endMenu" >
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

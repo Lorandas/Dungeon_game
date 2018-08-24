@@ -1,0 +1,59 @@
+.holst-game{
+    -fx-background-image: url("/sample/resources/pictures/backgroundGame.png");
+}
+
+.pane-game{
+    -fx-background-color: rgb(100,60,40);
+    -fx-effect: innershadow(one-pass-box, black, 250, -30, 50, 50);
+}
+
+/*Цвет и шрифт текста на МЕНЮ в МЕНЮБАРЕ*/
+.menu-bar > .container > .menu-button > .label {
+    -fx-text-fill: rgb(128,128,128);
+    -fx-font: bold italic 12pt "Castellar";
+}
+/*цвет и эффекты в контекстном меню*/
+.context-menu {
+    -fx-background-color: rgb(100,60,40);
+    -fx-effect: innershadow(one-pass-box, black, 50, -3, 5, 5);
+}
+
+/*выделяет нужным цветом при фокусировке МЕНЮИТЕМА*/
+.menu-item:focused, .menu-item:hovered {
+    -fx-background-color: rgb(10,100,0);
+}
+
+/*выделяет нужным цветом ТЕКСТ при фокусировке МЕНЮИТЕМА*/
+.menu-item:focused .label, .menu-item:hovered .label {
+    -fx-text-fill: rgb(220,220,20);
+}
+
+/*Выделяет нужным цветом и нужным шрифтом текст в МЕНЮИТЕМЕ*/
+.menu-item .label {
+    -fx-text-fill: rgb(128,128,128);
+    -fx-font: bold italic 10pt "Castellar";
+}
+
+/*При наводке и выделении на МЕНЮ В МЕНЮБАРЕ выделяет нужным цветом контур*/
+.menu-bar > .container > .menu-button:hover,
+.menu-bar > .container > .menu-button:focused,
+.menu-bar > .container > .menu-button:showing {
+    -fx-background-color: rgb(10,100,0);
+}
+
+/*При наводке и выделении на МЕНЮ В МЕНЮБАРЕ выделяет нужным цветом текст*/
+.menu-bar > .container > .menu-button:hover > .label,
+.menu-bar > .container > .menu-button:focused > .label,
+.menu-bar > .container > .menu-button:showing > .label {
+    -fx-text-fill: rgb(220,220,20);
+}
+
+/**/
+.menu-bar{
+    -fx-background-color: rgb(100,60,40);
+    -fx-effect: innershadow(one-pass-box, black, 100, -30, 10, 10);
+}
+
+.count-coin{
+   -fx-effect: innershadow(one-pass-box, black, 1.5, 1.5, -1.5, 1.5);
+}

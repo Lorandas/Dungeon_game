@@ -1,0 +1,27 @@
+.holst-endMenu{
+    -fx-background-color: rgb(100,60,40);
+    -fx-effect: innershadow(one-pass-box, black, 250, -30, 50, 50);
+}
+
+.text-endMenu{
+    -fx-text-fill: rgb(80,120,180);
+    -fx-effect: innershadow(one-pass-box, black,  20, -3, 2, 2);
+    -fx-font: bold 11pt "Rockwell Extra Bold";
+}
+
+
+.btn-endMenu{
+    -fx-background-color: rgb(150,150,200);
+    -fx-effect: innershadow(one-pass-box, black, 200, -3, 20, 20);
+    -fx-text-fill: rgb(140,100,150);
+    -fx-font: bold italic 12pt "Castellar";
+}
+
+.btn-endMenu:focused, .btn-endMenu:hover{
+    -fx-background-color: rgb(10,100,0);
+}
+
+.btn-endMenu:pressed{
+    -fx-background-color: rgb(142,199,133);
+    -fx-border-style: solid, segments(1 , 1);
+}
